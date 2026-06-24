@@ -7,8 +7,9 @@ export default function PrivacyPolicy() {
   return (
     <>
       <PageHero
-        title="Privacy Policy"
-        description="How we protect and use your information"
+        eyebrow="Privacy Policy"
+        title="How we protect and use your information"
+        description="Nexvora Technology is committed to protecting your privacy and ensuring you have a positive experience on our website."
       />
 
       <section className="section-shell py-16 md:py-24 bg-white">

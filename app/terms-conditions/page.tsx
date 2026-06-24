@@ -7,8 +7,9 @@ export default function TermsConditions() {
   return (
     <>
       <PageHero
-        title="Terms & Conditions"
-        description="Our service terms and legal agreements"
+        eyebrow="Terms & Conditions"
+        title="Our service terms and legal agreements"
+        description="Please read these terms carefully before using Nexvora Technology services and products."
       />
 
       <section className="section-shell py-16 md:py-24 bg-white">
