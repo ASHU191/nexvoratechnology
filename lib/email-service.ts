@@ -5,8 +5,10 @@ const SERVICE_ID = "service_irq9s0m"; // You'll provide this
 const TEMPLATE_ID = "template_54idgqp"; // You'll provide this
 const PUBLIC_KEY = "EsMbpQIc6geh29MHu"; // You'll provide this
 
-// Add error logging for debugging
-(window as any).__emailjsDebug = true;
+// Add error logging for debugging (client-side only)
+if (typeof window !== "undefined") {
+  (window as any).__emailjsDebug = true;
+}
 
 export function initializeEmailJS() {
   emailjs.init(PUBLIC_KEY);
