@@ -10,7 +10,7 @@ export function OurPartners() {
     <section className="section-shell py-16 md:py-24">
       <FadeIn>
         <SectionHeading
-          label="TRUSTED PARTNERS"
+          eyebrow="TRUSTED PARTNERS"
           title="Industry Leaders We Work With"
           description="We partner with world-class technology providers to deliver enterprise-grade solutions"
         />
