@@ -81,3 +81,14 @@ body {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* Prevent accidental horizontal overflow on small screens */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Ensure media scale down responsively */
+img, video, svg {
+  max-width: 100%;
+  height: auto;
+}
